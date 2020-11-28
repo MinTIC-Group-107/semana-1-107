@@ -73,7 +73,7 @@ body{
 }
 
 .section-1{
-  height: 500px;
+  height: 520px;
   background-color: rebeccapurple;
 
 }
@@ -101,8 +101,8 @@ body{
 
 .col-3{
   width: 33.08%;
-  height: 440px;
-  background-color: aquamarine;
+  height: 490px;
+  background-color: #45B82E;
   display: inline-block;
   padding: -15px;
   margin-top: 5px;
@@ -131,7 +131,7 @@ body{
   padding: 0.5em 0;
 }
 .service-text{
-  padding: 10px;
+  padding: 5px;
   text-align: justify;
   bottom: 0;
 }
