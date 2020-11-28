@@ -79,7 +79,7 @@ body{
 }
 
 .section-2{
-  height: 500px;
+  height: 520px;
   background-color: gainsboro;
 }
 
@@ -106,7 +106,7 @@ body{
 
 .col-3{
   width: 33.08%;
-  height: 470px;
+  height: 440px;
   background-color: aquamarine;
   display: inline-block;
   padding: -15px;
@@ -116,7 +116,7 @@ body{
 
 .col-4{
   width: 24%;
-  height: 470px;
+  height: 440px;
   display: inline-block;
   margin: 5px 4px 0;
   text-align: center;
