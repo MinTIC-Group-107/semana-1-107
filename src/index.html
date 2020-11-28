@@ -4,62 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Mi primera pagina web</title>
+    <title>Mi primera pagina web</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="nav-list">
-            <ul class="main-menu">
-                <li class="main-menu__item">
-                    <a href="#" class="main-menu__link">Inicio</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#services" class="main-menu__link">Servicios</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#news" class="main-menu__link">Noticias</a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#team" class="main-menu__link">Equipo</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <div class="container">
+        <header class="header">
+            <div class="container-menu">
+                <div class="container-logo">
+                    <h1 class="site-title">Grupo 107</h1>
+                </div>
+                <nav class="nav-list">
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Inicio</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#services" class="main-menu__link">Servicios</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#news" class="main-menu__link">Noticias</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#team" class="main-menu__link">Equipo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container-imagen">
+                <h2 class="image-text">here is an image</h2>
+            </div>
 
-        <!-- Inicio sección servicios -->
-        <section id="services">
-            <div class="section-1">
+        </header>
+        <main>
+            <!-- Inicio sección servicios -->
+            <div id="services" class="section-1">
                 <p class="section-text">SERVICIOS EN TELECOMUNICACIONES</p>
                 <div class="col-3">
                     <p>
 
-                        <!-- <i class="fas fa-ambulance" style="font-size:200px"></i> -->
-                        <a href="https://www.claro.com.co/personas/servicios/servicios-moviles/"><img src="mobil.png" style="font-size:200px"></a>
-                        <!-- <a href="https://www.claro.com.co/personas/servicios/servicios-moviles/"><img src="mobil.png" style="font-size:200px"></a> -->
-
+						<i class="fas fa-ambulance" style="font-size:200px"></i>
                     </p>
                     <div class="service-content">
 
                         <h1>
-                            TELEFONÍA MÓVIL
+							TELEFONÍA MÓVIL
                         </h1>
                         <p class="service-text">
                             La Telefonía Móvil Celular es un servicio público de telecomunicaciones, cuyo objetivo
                             principal es facilitar la comunicación telefónica de los abonados sin imponer restricciones
-                            en cuanto a ubicación y desplazamiento de éstos.
-                        <a href="https://www.claro.com.co/personas/servicios/servicios-moviles/">Contratalo</a>
-
+							en cuanto a ubicación y desplazamiento de éstos.
+							<a href="https://www.claro.com.co/personas/servicios/servicios-moviles/">Contratalo</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-3">
                     <p>
 
-                        <!-- <i class="fas fa-ambulance" style="font-size:200px"></i> -->
-                        <a href="https://www.movistar.co/planes-de-internet/"><img src="internet.png" style="font-size:200px"></a>
+						<!-- <i class="fas fa-ambulance" style="font-size:200px"></i> -->
+						<a href="https://www.movistar.co/planes-de-internet/"><img src="internet.png" style="font-size:200px"></a>
                     </p>
                     <div class="service-content">
 
@@ -77,9 +81,8 @@
                 <div class="col-3">
                     <p>
 
-                        <!-- <i class="fas fa-ambulance" style="font-size:200px"></i> -->
-                        <a href="https://www.tigo.com.co/servicios/television"><img src="tv" style="font-size:200px"></a>
-
+						<!-- <i class="fas fa-ambulance" style="font-size:200px"></i> -->
+						<a href="https://www.tigo.com.co/servicios/television"><img src="tv" style="font-size:200px"></a>
                     </p>
                     <div class="service-content">
 
@@ -90,32 +93,149 @@
                             La televisión por cable consiste en un servicio de TV en el cual la señal llega al abonado
                             a través de un sistema de fibra óptica o bien vía coaxial. En esta nueva oferta destacan las smart TV y también otras formas de disfrutar de los contenidos.
                             <a href="https://www.tigo.com.co/servicios/television">Contratalo</a>
-
                         </p>
                     </div>
                 </div>
             </div>
+            <!-- Fin seccion de servicios -->
 
-        </section>
-        <!-- Fin seccion de servicios -->
+            <!-- Inicio sección de noticias -->
+            <div id="news" class="section-2">
+                <p class="section-text">Noticias</p>
+                <div class="section-news">
 
-        <!-- Inicio sección de noticias -->
-        <section id="news">
+                    <div class="news">
+                        <div class="news-data">
+                            <div class="news-image">
+                                <i class="fas fa-ambulance news-logo" style="font-size:150px"></i>
+                            </div>
+                            <div class="news-text">
+                                <h2 class="news-title">Noticia 1</h2>
+                                <hr>
+                                <p class="news-info" style="margin:0; padding:0;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Esse rem itaque mollitia dicta nesciunt corrupti temporibus ratione deserunt excepturi
+                                    quas enim ab, facilis delectus, doloremque a optio! Sit, quae consequuntur.</p>
+                                <span class="news-url"><a href="#">Leer noticia completa >></a></span>
+                            </div>
+                        </div>
+                        <div class="news-data">
+                            <div class="news-image">
+                                <i class="fas fa-ambulance news-logo" style="font-size:150px"></i>
+                            </div>
+                            <div class="news-text">
+                                <h2 class="news-title">Noticia 1</h2>
+                                <hr>
+                                <p class="news-info" style="margin:0; padding:0;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Esse rem itaque mollitia dicta nesciunt corrupti temporibus ratione deserunt excepturi
+                                    quas enim ab, facilis delectus, doloremque a optio! Sit, quae consequuntur.</p>
+                                <span class="news-url"><a href="#">Leer noticia completa >></a></span> </div>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <div class="news-data">
 
-        </section>
-        <!-- Fin seccion de noticias -->
+                            <div class="news-image">
+                                <i class="fas fa-ambulance news-logo" style="font-size:150px"></i>
+                            </div>
+                            <div class="news-text">
+                                <h2 class="news-title">Noticia 1</h2>
+                                <hr>
+                                <p class="news-info" style="margin:0; padding:0;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Esse rem itaque mollitia dicta nesciunt corrupti temporibus ratione deserunt excepturi
+                                    quas enim ab, facilis delectus, doloremque a optio! Sit, quae consequuntur.</p>
+                                <span class="news-url"><a href="#">Leer noticia completa >></a></span> </div>
+                        </div>
+                        <div class="news-data">
 
-        <!-- Inicio sección de Equipo -->
-        <section id="team">
+                            <div class="news-image">
+                                <i class="fas fa-ambulance news-logo" style="font-size:150px"></i>
+                            </div>
+                            <div class="news-text">
+                                <h2 class="news-title">Noticia 1</h2>
+                                <hr>
+                                <p class="news-info" style="margin:0; padding:0;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                    elit. Esse rem itaque mollitia dicta nesciunt corrupti temporibus ratione deserunt excepturi
+                                    quas enim ab, facilis delectus, doloremque a optio! Sit, quae consequuntur.</p>
+                                <span class="news-url"><a href="#">Leer noticia completa >></a></span> </div>
+                        </div>
 
-        </section>
-        <!-- Fin sección de equipo -->
-    </main>
+                    </div>
+                </div>
 
-    <!-- Footer - pie de página -->
-    <footer>
-        <p>Grupo 107</p>
-        <p><a href="https://www.mintic.gov.co/">MinTIC</a></p>
-    </footer>
+            </div>
+            <!-- Fin seccion de noticias -->
+
+            <!-- Inicio sección de Equipo -->
+            <div id="team" class="section-3">
+                <p class="section-text">Nuestro equipo</p>
+                <div class="col-4">
+                    <p>
+                        <i class="fas fa-ambulance" style="font-size:150px"></i>
+                    </p>
+                    <div class="service-content">
+
+                        <h2>
+                            Daniel Duque
+                        </h2>
+                        <p class="service-text memebers">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
+                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>
+                        <i class="fas fa-ambulance" style="font-size:150px"></i>
+                    </p>
+                    <div class="service-content">
+
+                        <h2>
+                            Daniel Duque
+                        </h2>
+                        <p class="service-text memebers">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
+                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>
+                        <i class="fas fa-ambulance" style="font-size:150px"></i>
+                    </p>
+                    <div class="service-content">
+                        <h2>
+                            Daniel Duque
+                        </h2>
+                        <p class="service-text memebers">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
+                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>
+                        <i class="fas fa-ambulance" style="font-size:150px"></i>
+                    </p>
+                    <div class="service-content">
+
+                        <h2>
+                            Daniel Duque
+                        </h2>
+                        <p class="service-text memebers">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
+                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin sección de equipo -->
+        </main>
+
+        <!-- Footer - pie de página -->
+        <footer class="footer">
+            <p class="section-text">Grupo 107</p>
+            <p><a href="https://www.mintic.gov.co/">MinTIC</a></p>
+        </footer>
+    </div>
 </body>
 </html>
