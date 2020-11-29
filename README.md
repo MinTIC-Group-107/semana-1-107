@@ -18,3 +18,20 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
   El elemento donde están los servicios debe de tener un `id=”team”`
 
 - Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+
+## Cómo ver este proyecto
+
+- Clone el repositorio mediante el comando
+```bash
+git clone https://github.com/MinTIC-Group-107/semana-1-107.git
+```
+- Entre a la carpeta `src`
+- Abra el archivo `index.html` en su navegador favorito
+
+## Autores
+- **Manuel Mosquera:** [mosquera.manuel2011@gmail.com](mailto:mosquera.manuel2011@gmail.com)
+- **Andrés Restrepo:** [restrepo.ingeniero2018@gmail.com](mailto:restrepo.ingeniero2018@gmail.com)
+- **Clara Inés Marín:** [claramarmfs@gmail.com](mailto:claramarmfs@gmail.com)
+- **Luis Antonio Parrado:** [luisprmat@gmail.com](mailto:luisprmat@gmail.com)
+
+
