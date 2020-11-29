@@ -102,6 +102,20 @@ body{
   padding: 20px;
 }
 
+.footer-sponsors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sponsors i {
+  font-size: 3em;
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+}
+
 .section-text{
   margin: 0;
   color: #3e3e3e;
